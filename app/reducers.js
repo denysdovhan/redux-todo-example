@@ -19,14 +19,15 @@ function todos(state = [], action) {
         ...state
       ]
     case COMPLETE_TODO:
-      return state.map(todo => {
-        if (todo.id === action.id) {
+      return state.map((todo, id) => {
+        if (id === action.id) {
           return Object.assign(
             {},
             todo,
             { completed: true }
           )
         }
+        return todo;
       })
     default:
       return state;
