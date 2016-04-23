@@ -1,0 +1,28 @@
+{
+  "name": "redux-todo-example",
+  "version": "0.0.0",
+  "description": "Redux todo example application",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.7.7",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0"
+  },
+  "scripts": {
+    "build": "babel app --out-dir dist",
+    "watch": "babel app --out-dir dist --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denysdovhan/redux-todo-example.git"
+  },
+  "author": "Denys Dovhan <email@denysdovhan.com> (http://denysdovhan.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denysdovhan/redux-todo-example/issues"
+  },
+  "homepage": "https://github.com/denysdovhan/redux-todo-example#readme"
+}
